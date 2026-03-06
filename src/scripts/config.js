@@ -1,8 +1,8 @@
 export const staticUrl = "https://leoschweiger.com";
 export const aboutMeLong =
-    `I’m a student and game developer based in Salzburg, Austria, focused on creating effective, interesting and fun software. Since 2018, I have been working on projects ranging from utility tools to fully released games. My technical and artistic background allowed me to create multiple <a href="${staticUrl}/games#developed">game projects</a> already.`;
+    `Ich bin Student und Spieleentwickler aus Salzburg, Österreich, mit dem Fokus auf effektive, interessante und spaßige Software. Seit 2018 arbeite ich an Projekten – von nützlichen Tools bis hin zu vollständig veröffentlichten Spielen. Mein technischer und künstlerischer Hintergrund ermöglichte es mir, bereits mehrere <a href="${staticUrl}/games#developed">Spielprojekte</a> zu realisieren.`;
 export const aboutMeShort =
-    'I’m a game developer focused on creating interesting and fun software. My technical and artistic background allowed me to create multiple games already.';
+    'Ich bin Spieleentwickler mit Fokus auf interessante und spaßige Software. Mein technischer und künstlerischer Hintergrund ermöglichte es mir, bereits mehrere Spiele zu entwickeln.';
 
 export const mainTitle = "leo schweiger";
 

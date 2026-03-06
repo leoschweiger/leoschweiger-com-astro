@@ -61,7 +61,7 @@ h4 {
     margin-top: 0.5em;
     margin-bottom: 0.3em;
 
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
 }
 
 h1 {

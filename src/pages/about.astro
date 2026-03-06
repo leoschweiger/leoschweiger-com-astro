@@ -27,21 +27,21 @@ import "../styles/about.css";
     <section>
         <div class="space"></div>
 
-        <h1 class="nopdf">about me</h1>
+        <h1 class="nopdf">über mich</h1>
 
         <p class="bigtext nopdf" set:html={aboutMeLong} />
 
         <div class="imagekeepaspect nopdf">
-            <Picture src={portraitImage} alt="leo schweiger portrait" />
+            <Picture src={portraitImage} alt="leo schweiger porträt" />
         </div>
 
         <div class="cols bottom c12 pdf">
             <div class="imagekeepaspect">
-                <Picture src={portraitImage} alt="leo schweiger portrait" />
+                <Picture src={portraitImage} alt="leo schweiger porträt" />
             </div>
             <div class="bigtext">
                 <h1>leo schweiger</h1>
-                <h2>software developer</h2>
+                <h2>Softwareentwickler</h2>
             </div>
         </div>
 
@@ -49,76 +49,78 @@ import "../styles/about.css";
         <hr />
 
         <div class="cols c12 pdf">
-            <h3 class="">about</h3>
+            <h3 class="">Über mich</h3>
             <p class="" set:html={aboutMeLong + "<br /> <br /> "} />
         </div>
 
         <hr />
 
         <div class="cols c12">
-            <h3 class="">experience</h3>
+            <h3 class="">Erfahrung</h3>
 
             <p>
                 <ExperienceEntry
                     from={2026}
-                    to={"today"}
+                    to={"heute"}
                     company="Second Stage Studio"
-                    position="freelance game programmer"
-                    companyKind="game studio"
+                    position="freiberuflicher Spieleprogrammierer"
+                    companyKind="Spielestudio"
                     link="https://secondstage.studio/"
-                    doing="UI systems, menus, controls & settings for <a href='https://store.steampowered.com/app/4191250/Sprint_City/' target='_blank' rel='noopener noreferrer'>Sprint City</a> in Defold"
+                    doing="UI-Systeme, Menüs, Steuerung & Einstellungen für <a href='https://store.steampowered.com/app/4191250/Sprint_City/' target='_blank' rel='noopener noreferrer'>Sprint City</a> in Defold"
                 />
                 <ExperienceEntry
                     from={2025}
                     company="Second Stage Studio"
-                    position="game programmer intern (4 months)"
-                    companyKind="game studio"
+                    position="Spieleprogrammierer-Praktikant (4 Monate)"
+                    companyKind="Spielestudio"
                     link="https://secondstage.studio/"
-                    doing="UI systems, menus, shaders for <a href='https://store.steampowered.com/app/4191250/Sprint_City/' target='_blank' rel='noopener noreferrer'>Sprint City</a> in Defold"
+                    doing="UI-Systeme, Menüs, Shader für <a href='https://store.steampowered.com/app/4191250/Sprint_City/' target='_blank' rel='noopener noreferrer'>Sprint City</a> in Defold"
                 />
                 <ExperienceEntry
                     from={2024}
                     to={2025}
-                    company="Salzburg University of Applied Sciences"
-                    position="tutor"
-                    companyKind="introduction to programming"
+                    company="FH Salzburg"
+                    position="Tutor"
+                    companyKind="Einführung in die Programmierung"
                     link="https://www.fh-salzburg.ac.at/en/study/ct/multimediatechnology-bachelor"
-                    doing="tutoring first semester students in programming basics"
+                    doing="Betreuung von Erstsemesterstudierenden in Programmiergrundlagen"
                 />
                 <ExperienceEntry
                     from={2024}
                     company="Buffactory Media GmbH"
-                    position="ad creative developer intern"
-                    companyKind="advertising agency"
+                    position="Praktikant für kreative Werbeentwicklung"
+                    companyKind="Werbeagentur"
                     link="https://buffactory.com/"
-                    doing="designing web advertisements"
+                    doing="Gestaltung von Online-Werbung"
                 />
                 <span class="nopdf">
                     <ExperienceEntry
                         from={2022}
                         company="Target Group Publishing GmbH"
-                        position="editorial designer intern"
-                        companyKind="publishing agency"
+                        position="Praktikant für Editorial Design"
+                        companyKind="Verlagsagentur"
                         link="http://www.target-group.at/"
-                        doing="designing layouts for magazines and print advertisements"
+                        doing="Gestaltung von Layouts für Magazine und Printanzeigen"
                     />
                 </span>
-                <ExperienceEntry
-                    from={2021}
-                    company="Mediasquad GmbH"
-                    position="VR developer intern"
-                    companyKind="studio for AR/VR apps"
-                    link="https://www.msq.at/"
-                    doing="developing a prototype for a VR puzzle game"
-                />
+                <span class="nopdf">
+                    <ExperienceEntry
+                        from={2021}
+                        company="Mediasquad GmbH"
+                        position="VR-Entwickler-Praktikant"
+                        companyKind="Studio für AR/VR-Apps"
+                        link="https://www.msq.at/"
+                        doing="Entwicklung eines Prototyps für ein VR-Puzzlespiel"
+                    />
+                </span>
                 <span class="nopdf">
                     <ExperienceEntry
                         from={2020}
                         company="Spectrum Advertising Agency GmbH"
-                        position="corporate-designer intern"
-                        companyKind="marketing agency"
+                        position="Praktikant für Corporate Design"
+                        companyKind="Marketingagentur"
                         link="https://www.spectrum.at/"
-                        doing="creating graphics and advertisements"
+                        doing="Erstellung von Grafiken und Werbemitteln"
                     />
                 </span>
             </p>
@@ -127,25 +129,25 @@ import "../styles/about.css";
         <hr />
 
         <div class="cols c12">
-            <h3 class="">education</h3>
+            <h3 class="">Ausbildung</h3>
             <p>
                 <ExperienceEntry
                     from={2023}
                     to={2026}
-                    company="Salzburg University of Applied Sciences"
-                    position="bachelor program MultiMediaTechnology"
+                    company="FH Salzburg"
+                    position="Bachelorstudium MultiMediaTechnology"
                     companyKind=""
                     link="https://www.fh-salzburg.ac.at/en/study/ct/multimediatechnology-bachelor"
-                    doing="game development and augmented reality"
+                    doing="Spieleentwicklung und Augmented Reality"
                 />
                 <ExperienceEntry
                     from={2017}
                     to={2022}
                     company="HTL Bau und Design"
                     position=""
-                    companyKind="higher vocational school"
+                    companyKind="Höhere Technische Lehranstalt"
                     link="https://www.htl-ibk.at/"
-                    doing="focusing on graphic-design and marketing"
+                    doing="Schwerpunkt auf Grafikdesign und Marketing"
                 />
             </p>
         </div>
@@ -153,13 +155,14 @@ import "../styles/about.css";
         <hr />
 
         <div class="cols c12">
-            <h3 class="">skills</h3>
+            <h3 class="">Fähigkeiten</h3>
             <p>
-                › proficient in C#, with solid experience in C++ and Lua <br />
-                › experienced Unity developer <br />
-                › additional experience with Defold and Unreal Engine <br />
-                › focused on game systems, tooling, and UI programming <br />
-                › secondary experience in web development, Astro and Go <br />
+                › C# als Hauptsprache, solide Kenntnisse in C++ und Lua <br />
+                › erfahrener Unity-Entwickler <br />
+                › zusätzliche Erfahrung mit Defold und Unreal Engine <br />
+                › Schwerpunkt auf Spielesysteme, Tooling und UI-Programmierung <br
+                />
+                › Nebenerfahrung in Webentwicklung, Astro und Go <br />
             </p>
         </div>
         <div class="space pdf"></div>
